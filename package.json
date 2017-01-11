@@ -1,0 +1,17 @@
+{
+  "name": "weatherbotv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ofciel.test.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
+    "start": "node main/implementation.js AEDARC6WSMQNHLEA6I2TNFOT7GEJ2VOH"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
